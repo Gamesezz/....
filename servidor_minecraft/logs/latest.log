@@ -1,31 +1,32 @@
-[05:27:28] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[05:27:28] [main/INFO]: Loading 4 mods:
+[05:29:31] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[05:29:32] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21
-[05:27:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/..../servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:27:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:27:36] [main/INFO]: Loaded 1290 recipes
-[05:27:36] [main/INFO]: Loaded 1399 advancements
-[05:27:37] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:27:37] [Server thread/INFO]: Loading properties
-[05:27:37] [Server thread/INFO]: Default game type: SURVIVAL
-[05:27:37] [Server thread/INFO]: Generating keypair
-[05:27:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:27:37] [Server thread/INFO]: Using epoll channel type
-[05:27:37] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[05:27:37] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[05:27:37] [Server thread/WARN]: Perhaps a server is already running on that port?
-[05:27:37] [Server thread/ERROR]: Encountered an unexpected exception
+[05:29:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/..../servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:29:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:29:39] [main/INFO]: No existing world data, creating new world
+[05:29:39] [main/INFO]: Loaded 1290 recipes
+[05:29:40] [main/INFO]: Loaded 1399 advancements
+[05:29:40] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:29:40] [Server thread/INFO]: Loading properties
+[05:29:40] [Server thread/INFO]: Default game type: SURVIVAL
+[05:29:40] [Server thread/INFO]: Generating keypair
+[05:29:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:29:41] [Server thread/INFO]: Using epoll channel type
+[05:29:41] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[05:29:41] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[05:29:41] [Server thread/WARN]: Perhaps a server is already running on that port?
+[05:29:41] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to initialize server
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:716) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[05:27:37] [Server thread/ERROR]: This crash report has been saved to: /workspaces/..../servidor_minecraft/crash-reports/crash-2025-01-14_05.27.37-server.txt
-[05:27:37] [Server thread/INFO]: Stopping server
-[05:27:37] [Server thread/INFO]: Saving worlds
-[05:27:37] [Server thread/ERROR]: Exception stopping the server
+[05:29:41] [Server thread/ERROR]: This crash report has been saved to: /workspaces/..../servidor_minecraft/crash-reports/crash-2025-01-14_05.29.41-server.txt
+[05:29:41] [Server thread/INFO]: Stopping server
+[05:29:41] [Server thread/INFO]: Saving worlds
+[05:29:41] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_8621()" because "$$5" is null
 	at net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:561) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:620) ~[server-intermediary.jar:?]
